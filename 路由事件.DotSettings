@@ -1,0 +1,21 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Shortcut/@EntryValue">rte</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Description/@EntryValue">Routed Event</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Text/@EntryValue"> public event RoutedEventHandler $EventName$&#xD;
+        {&#xD;
+            add { AddHandler($EventName$Event, value); }&#xD;
+            remove { RemoveHandler($EventName$Event, value); }&#xD;
+        }&#xD;
+        public static readonly RoutedEvent $EventName$Event = EventManager.RegisterRoutedEvent(&#xD;
+            "$EventName$Event", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof($containingType$));</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Field/=EventName/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Field/=EventName/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Field/=containingType/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Field/=containingType/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
