@@ -8,7 +8,7 @@
             remove { RemoveHandler($EventName$Event, value); }&#xD;
         }&#xD;
         public static readonly RoutedEvent $EventName$Event = EventManager.RegisterRoutedEvent(&#xD;
-            "$EventName$Event", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof($containingType$));</s:String>
+            "$EventName$", RoutingStrategy.Bubble, typeof(RoutedEventHandler), typeof($containingType$));</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C5ACFFFD56854449AE5A47F4FB7039C1/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
